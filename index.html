@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <title>Weather Dashboard</title>
+ </head>
+
+ <body>
+    <header class="text-bg-secondary p-3" style="background-color: #222dd1; color: white;"> 
+        <h1><strong>Weather Dashboard</strong></h1>
+    </header>
+
+    <section class="col-sm-4 bg-light">
+        <h2>Search for a City:</h2>
+         <textarea></textarea>
+         <button style="background-color: lightblue; color:white">search</button>
+         <ul class="city-list"></ul>
+    </section>
+
+    <section class="col-sm-12" id="current-weather">
+      <h3 class="city-name" id="current-city"></h3>
+      <p>Temp:</p>
+      <p>Wind:</p>
+      <p>Humidity:</p>
+    </section>
+    
+    <section class="col-sm-12" id ="future-weather">
+      <h3>5-Day Forecast:</h3>
+      <day>
+         <p id="fDate1"></p>
+         <p id="fImg1"></p>
+         <p>Temp:</p>
+         <p>wind:</p>
+         <p>Humidity:</p>
+      </day>
+    </section>
+    <section class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
+      <day>
+         <p id="fDate2"></p>
+         <p id="fImg2"></p>
+         <p>Temp:</p>
+         <p>wind:</p>
+         <p>Humidity:</p>
+      </day>
+    </section>
+    <section class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
+      <day>
+         <p id="fDate3"></p>
+         <p id="fImg3"></p>
+         <p>Temp:</p>
+         <p>wind:</p>
+         <p>Humidity:</p>
+      </day>
+    </section>
+    <section class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
+      <day>
+         <p id="fDate4"></p>
+         <p id="fImg4"></p>
+         <p>Temp:</p>
+         <p>wind:</p>
+         <p>Humidity:</p>
+      </day>
+    </section>
+    <section class="col-sm-2 bg-primary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
+      <day>
+         <p id="fDate5"></p>
+         <p id="fImg5"></p>
+         <p>Temp:</p>
+         <p>wind:</p>
+         <p>Humidity:</p>
+      </day>
+    </section>
+ </body>
+
+</html>
